@@ -1,0 +1,155 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95.5vh;
+    }
+    
+    .form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    }
+    
+    .input-box {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    }
+    
+    .input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+    border-radius: 40px;
+    outline: none;
+    }
+    
+    .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 90%;
+    color: #555;
+    }
+    
+    .remember {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    }
+    
+    .label {
+    display: flex;
+    align-items: center;
+    }
+    .anchor {
+    text-decoration: none;
+    color: #007bff;
+    }
+    
+    .anchor:hover{
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.5px solid;
+    text-decoration-color: #0288D1;
+    }
+    .btn2 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    }
+    
+    .register {
+    text-align: center;
+    margin-top: 20px;
+    color: #636262;
+    }
+    
+    .register .anchor {
+    color: #007bff;
+    }
+    
+    .app-container {
+    
+    transition: filter 0.3s ease; /* Add a smooth transition effect */
+    }
+    
+    .blur {
+    filter: blur(5px); /* Apply a blur effect to the background when the table is active */
+    }
+    
+    .table-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    z-index: 2; /* Place the table above the blurred background */
+    }
+    
+    .close-button {
+    margin-bottom: 10px;
+    }
+    
+    /* Add this to your CSS or SCSS file */
+    
+    .scrolled {
+    background-color: #fff; /* Add any styling you want for the scrolled state */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 16px;
+    width: 322.66px;
+    height:300px;
+    }
+    
+    .card-image {
+    width: 320.66px;
+    height: 200px;
+    }
+    .card-image1{
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+    }
+    .card-content1{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: right;
+    }
+    .card-content{
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif;
+    text-align:start;
+    
+    padding-top: 30px;
+    padding: 55px ;
+    padding-right: 20px;
+    background-color:#f1f1f1 ;
+    font-size: 15px;
+    color: #484848;
+    }
+    @media (max-width: 600px) {
+    .input-box {
+    margin-bottom: 15px;
+    }
+    
+    .icon {
+    font-size: 18px;
+    }
+    }
